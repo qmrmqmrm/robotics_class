@@ -8,9 +8,4 @@ def callback(msg):
 
 rospy.init_node('custom_subscriber')
 sub = rospy.Subscriber('merge_msg', Float32Vector3, callback)
-pub = rospy.Publisher('my_string',String,queue_size=1)
-rate = rospy.Rate(1)
-while not rospy.is_shutdown():
-    pub.publish("vector to time")
-    rospy.wait_for_message('my_string',String)
-    rate.sleep()
+rospy.spin()
