@@ -15,11 +15,10 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+ add_message_files(
+   FILES
+   Float32Vector3.msg
+ )
 
 catkin_package(
 
