@@ -15,5 +15,5 @@ while not rospy.is_shutdown():
     msg.vector3.x += 1
     msg.vector3.y += 1
     msg.vector3.z += 1
-    print "msg.vector3.x : %f, msg.vector3.y: %f, msg.vector3.z : %f" %(msg.vector3.x, msg.vector3.y, msg.vector3.z)
+    print "msg.data : %f msg.vector3.x : %f, msg.vector3.y: %f, msg.vector3.z : %f" %(msg.data, msg.vector3.x, msg.vector3.y, msg.vector3.z)
     pub.publish(msg)
