@@ -4,7 +4,7 @@ from common_msgs.msg import Float32Vector3
 
 rospy.init_node('Sensor_Pub')
 pub = rospy.Publisher('merge_msg',Float32Vector3,queue_size=1)
-msg = Float32Vector3
+msg = Float32Vector3()
 rate = rospy.Rate(1)
 msg.data = 0
 msg.vector3.x = 0

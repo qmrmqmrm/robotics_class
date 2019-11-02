@@ -19,6 +19,11 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    Float32Vector3.msg
  )
+generate_messages(
+  DEPENDENCIES
+  geometry_msgs
+  std_msgs
+)
 
 catkin_package(
 
