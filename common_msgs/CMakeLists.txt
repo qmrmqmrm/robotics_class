@@ -19,16 +19,11 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    Float32Vector3.msg
  )
-add_service_files(
-  FILES
-  AddTwoNum.srv
-)
 generate_messages(
   DEPENDENCIES
   geometry_msgs
   std_msgs
 )
-
 
 catkin_package(
 
