@@ -1,0 +1,5 @@
+float32 vectorx
+float32 vectory
+float32 vectorz
+---
+float32 sum
