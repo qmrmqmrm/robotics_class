@@ -21,7 +21,7 @@ find_package(catkin REQUIRED COMPONENTS
  )
 add_service_files(
   FILES
-  AddTwoNum.srv
+  service.srv
 )
 generate_messages(
   DEPENDENCIES
