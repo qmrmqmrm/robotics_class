@@ -1,0 +1,12 @@
+*.atsln
+*~
+*.cci
+*.cfg
+*.cof
+*.cproj
+*.fct
+*.txt
+Debug
+Release
+*.cbi
+*.hci
