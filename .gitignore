@@ -10,3 +10,5 @@ Debug
 Release
 *.cbi
 *.hci
+__pycache__
+*.pyc
